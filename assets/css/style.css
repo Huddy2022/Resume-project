@@ -3,7 +3,7 @@
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
-    background-color: #676767;
+    background: url("../images/background.jpg");
 }
 
 .bg-color-three-reasons {
@@ -121,8 +121,15 @@ header {
     background: url("../images/adam.JPG");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 360px;
+    background-size: 50%;
+    min-height: 200px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
