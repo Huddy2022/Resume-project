@@ -26,7 +26,7 @@
     background-color: #ffffff;
 }
 
-.bg-color-conferences {
+.bg-color-interests {
     background-color: #f4f4f4;
 }
 
@@ -386,11 +386,6 @@ button[type="submit"] {
     color: #fafafa;
 }
 
-/*--------------------------------------------Map*/
-div#map {
-    min-height: 360px;
-}
-
 /*--------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
@@ -406,10 +401,4 @@ div#map {
         margin: 0 auto;
         max-width: 50%;
     }
-}
-
-/*--------------------------------------------Map*/
-
-div#map {
-    min-height: 360px;
 }
