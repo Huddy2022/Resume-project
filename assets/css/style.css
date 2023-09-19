@@ -337,6 +337,51 @@ footer .cv-pdf i:hover {
     width: 60%;
 }
 
+/*-------------------------------------------Resume*/
+
+.download-link {
+    text-decoration: none;
+    color: #e67e22; 
+    margin-left: 10px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.download-link:hover {
+    color: black; 
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    transition: width 0.3s ease-in-out;
+}
+
+.progress:hover .progress-bar {
+    width: 100%;
+}
+
+.progress .progress-type {
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    z-index: 2;
+}
+
+.progress-bar:hover::before {
+    content: attr(aria-valuenow) "%"; 
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    z-index: 2;
+    font-weight: bold;
+    color: black;
+}
+
 /*--------------------------------------------Skills*/
 
 .progress {
