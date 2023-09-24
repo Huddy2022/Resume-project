@@ -4,7 +4,7 @@ The Live link can be found here - https://huddy2022.github.io/Resume-project/
 
 The Resume Project represents an innovative facet of my CV, offering professionals an interactive platform to gain deeper insights into my background, skills, and experiences. It provides an intuitive interface divided into sections dedicated to personal information, work history, skills, education, and contact details. This project is a testament to my ability to create user-friendly and effective solutions. While it does not incorporate sign-in or sign-out features, professionals can seamlessly navigate through the sections to explore my qualifications, facilitating a better understanding of my profile and enhancing opportunities for job-related interactions and collaborations.
 
-![Responsive]()
+![Responsive](https://github.com/Huddy2022/Resume-project/blob/main/assets/images/responsive.png)
 
 ## Tools
 
@@ -34,7 +34,7 @@ Hero Section:
 
 * Text Content: Overlaying the video, there is text content that includes my name and professional title. This text is often used to provide a brief introduction or a personalized message to visitors.
 
-![Navigation/Header/Hero]()
+![Navigation/Header/Hero](https://github.com/Huddy2022/Resume-project/blob/main/assets/images/navigation.png)
 
 ## Footer
 
@@ -44,7 +44,7 @@ Hero Section:
 
 * Social Links: The footer includes links to your various social media profiles, such as LinkedIn, Twitter, or other professional networks. These links enable visitors to connect with me on social platforms and stay updated on my professional activities.
 
-![Footer]()
+![Footer](https://github.com/Huddy2022/Resume-project/blob/main/assets/images/footer.png)
 
 ## Home/Index
 
@@ -52,7 +52,7 @@ Hero Section:
 
 * Personal Information Section: This section provides detailed personal information about me. It covers aspects such as your contact information, location, email address, and phone number. This information helps interested parties get in touch with me.
 
-![Home]()
+![Home](https://github.com/Huddy2022/Resume-project/blob/main/assets/images/home.png)
 
 ## Resume Page
 
@@ -62,7 +62,7 @@ Hero Section:
 
 * Certificates/Courses: This section highlights my educational achievements, specifically my diploma in Full Stack Software Development. It provides information about the course's credit rating and lists the skills and knowledge you acquired during the program. A link is provided to download the diploma as a PDF.
 
-![Resume page]()
+![Resume page](https://github.com/Huddy2022/Resume-project/blob/main/assets/images/resume.png)
 
 ## Contact Page
 
@@ -70,7 +70,7 @@ Hero Section:
 
 * Submission Functionality: To handle form submissions, the page incorporates JavaScript that leverages the EmailJS library. When a visitor fills out the form and submits it, this JavaScript function sends an email to my specified email address with the details provided by the visitor.
 
-![Contact page]()
+![Contact page](https://github.com/Huddy2022/Resume-project/blob/main/assets/images/contact.png)
 
 ## Interests/Project Page
 
@@ -78,7 +78,7 @@ Hero Section:
 
 * Portfolio Projects Section: Positioned on the right side of the page, I showcase a curated collection of my portfolio projects. Each project is accompanied by an icon, a project title, a brief project description, and a list of technologies utilized. These projects encompass a diverse range of work, such as "F1 Tickets," "Mildew Detection in Cherry Leaves," "Slice of Spice," "Ultimate Battleships," "Pub Quiz," and "Mind & Body."
 
-![Interests page]()
+![Interests page](https://github.com/Huddy2022/Resume-project/blob/main/assets/images/interests_projects.png)
 
 ## GitHub Page
 
@@ -92,7 +92,7 @@ This section of my portfolio is dedicated to GitHub integration. You can explore
 
 Feel free to search for your favorite GitHub users and discover their projects and contributions.
 
-![GitHub page]()
+![GitHub page](https://github.com/Huddy2022/Resume-project/blob/main/assets/images/github.png)
 
 ## 404 Page
 
@@ -104,7 +104,7 @@ In case you've ventured off the intended path on my portfolio website, you'll en
 
 If you find any issues or broken links on my website, feel free to report them so I can ensure a smooth browsing experience for all visitors.
 
-![404 page]()
+![404 page](https://github.com/Huddy2022/Resume-project/blob/main/assets/images/404.png)
 
 ## Testing
 
