@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 function userInformationHTML(user) {
     return `
         <h2>${user.name}

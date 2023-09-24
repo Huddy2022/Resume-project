@@ -586,6 +586,13 @@ button[type="submit"] {
 
 /*--------------------------------------------Media Queries*/
 
+@media(max-width: 1300px) {
+    .interests-heading {
+        font-size: 1.3rem;
+    }
+    
+}
+
 @media(min-width: 992px) {
     .section-column {
         padding: 0 30px 30px;
@@ -599,6 +606,13 @@ button[type="submit"] {
         margin: 0 auto;
         max-width: 50%;
     }
+}
+
+@media(max-width: 975px) {
+    .interests-heading {
+        font-size: 1rem;
+    }
+    
 }
 
 @media(max-width: 765px) {

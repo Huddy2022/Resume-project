@@ -1,108 +1,173 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Resume
 
-Welcome Huddy2022,
+The Live link can be found here - 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The Resume Project represents an innovative facet of my CV, offering professionals an interactive platform to gain deeper insights into my background, skills, and experiences. It provides an intuitive interface divided into sections dedicated to personal information, work history, skills, education, and contact details. This project is a testament to my ability to create user-friendly and effective solutions. While it does not incorporate sign-in or sign-out features, professionals can seamlessly navigate through the sections to explore my qualifications, facilitating a better understanding of my profile and enhancing opportunities for job-related interactions and collaborations.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Responsive]()
 
-## Gitpod Reminders
+## Tools
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* HTML 
+* CSS
+* Bootstrap
+* Javascript
+* GitHub API
+* Email.js
+* Font awesome
+* Video background
+* jQuery 
 
-`python3 -m http.server`
+## Navigation/Header & Hero section
 
-A blue button should appear to click: _Make Public_,
+Header Section:
 
-Another blue button should appear to click: _Open Browser_.
+* Logo: The top section features a logo with your image. It's designed to grab the user's attention and create a visual connection with me, the creator of the resume.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Name and Title: Beneath the logo, my name and professional title are displayed prominently. This provides a clear introduction and establishes my identity.
 
-A blue button should appear to click: _Make Public_,
+* Navigation Menu: A navigation menu with various menu items is placed near the top. Each menu item corresponds to a different section of my resume, allowing users to easily navigate to the information they're interested in.
 
-Another blue button should appear to click: _Open Browser_.
+Hero Section:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* Background Video: The hero section features a captivating background video that adds a dynamic and visually appealing element to the page. It sets the tone and creates an engaging atmosphere.
 
-To log into the Heroku toolbelt CLI:
+* Text Content: Overlaying the video, there is text content that includes my name and professional title. This text is often used to provide a brief introduction or a personalized message to visitors.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Navigation/Header/Hero]()
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Footer
 
-------
+* About Me: This section provides a brief introduction/summary of myself as a professional. It offers visitors an insight into my background, skills, and career objectives.
 
-## Release History
+* CV Download: There is an icon or link that allows visitors to download my CV in PDF format. This makes it easy for them to access your complete professional information for reference.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* Social Links: The footer includes links to your various social media profiles, such as LinkedIn, Twitter, or other professional networks. These links enable visitors to connect with me on social platforms and stay updated on my professional activities.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Footer]()
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Home/Index
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* Three Reasons Section: In this section, I've outlined three key reasons/highlights that make me a standout candidate. Each point is presented with an icon and descriptive text, offering a concise summary of my strengths.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+* Personal Information Section: This section provides detailed personal information about me. It covers aspects such as your contact information, location, email address, and phone number. This information helps interested parties get in touch with me.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Home]()
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Resume Page
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+* Resume Content: The main content of my resume page is divided into two columns. The left column (.bg-color-work-history) focuses on my work history and education. It includes a timeline with details of your employment and educational experiences.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* Skills Section: The right column (.bg-color-three-reasons) is dedicated to showcasing my skills. It describes your proficiency in front-end and back-end technologies and displays progress bars to visually represent your skill levels.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* Certificates/Courses: This section highlights my educational achievements, specifically my diploma in Full Stack Software Development. It provides information about the course's credit rating and lists the skills and knowledge you acquired during the program. A link is provided to download the diploma as a PDF.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Resume page]()
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Contact Page
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* Contact Form: The main section of the page contains a contact form where visitors can enter their name, email address, and a brief project description. This form allows individuals to get in touch with me regarding potential projects, collaborations, or any inquiries they may have.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* Submission Functionality: To handle form submissions, the page incorporates JavaScript that leverages the EmailJS library. When a visitor fills out the form and submits it, this JavaScript function sends an email to my specified email address with the details provided by the visitor.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Contact page]()
 
-------
+## Interests/Project Page
 
-## FAQ about the uptime script
+* Interests Section: This section located on the left side of the page introduces my personal interests, each accompanied by an icon and a concise description. My interests span a range of topics, including web development, music, language acquisition, photography, gaming, fitness, motorsport, and quality family time.
 
-**Why have you added this script?**
+* Portfolio Projects Section: Positioned on the right side of the page, I showcase a curated collection of my portfolio projects. Each project is accompanied by an icon, a project title, a brief project description, and a list of technologies utilized. These projects encompass a diverse range of work, such as "F1 Tickets," "Mildew Detection in Cherry Leaves," "Slice of Spice," "Ultimate Battleships," "Pub Quiz," and "Mind & Body."
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+![Interests page]()
 
-**How will this affect me?**
+## GitHub Page
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+This section of my portfolio is dedicated to GitHub integration. You can explore GitHub profiles and repositories right here.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+**Explore GitHub Profiles and Repositories**
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- **Search for GitHub Users**: Enter a GitHub username in the provided field, and click the "Search" button.
+- **User Profile**: The user's GitHub profile information, including their name, bio, followers, following, and a link to their GitHub profile.
+- **Repositories**: A list of the user's repositories, including the repository name, description, and a link to the repository.
 
-**So….?**
+Feel free to search for your favorite GitHub users and discover their projects and contributions.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+![GitHub page]()
 
-**Can I opt out?**
+## 404 Page
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+In case you've ventured off the intended path on my portfolio website, you'll encounter this friendly 404 page. 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+**Message**: The page displays a message, "Hmm.. Looks like you've gone off the beaten path," indicating that you might have reached a non-existent or mistyped URL.
 
-**Anything more?**
+**Action**: Don't worry! I'm actively addressing the issue. You can click on the image of yours truly to return to the homepage and explore the rest of my portfolio.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+If you find any issues or broken links on my website, feel free to report them so I can ensure a smooth browsing experience for all visitors.
 
----
+![404 page]()
 
-Happy coding!
+## Testing
+
+| Test Case ID | Description | Test Steps | Expected Results | Status |
+|--------------|-------------|------------|------------------|--------|
+| TC 1 | Navigation Testing | 1. Visit the homepage. 2. Click on each navigation menu item. | - Verify that each menu item leads to the respective section (Resume, Contact, Interests / Projects, GitHub). - Confirm that the "Home" menu item reloads the homepage. | Passed |
+| TC 2.1 | Contact Form Validation | 1. Go to the "Contact" section. 2. Fill in the contact form with valid data. 3. Submit the form. | - Ensure that the form submission is successful. - Verify that a confirmation message is displayed. | Passed |
+| TC 2.2 | Contact Form Validation with Invalid Data | 1. Go to the "Contact" section. 2. Fill in the contact form with invalid data (e.g., incorrect email format). 3. Submit the form. | - Confirm that the form validation works and displays appropriate error messages for invalid input. | Passed |
+| TC 3.1 | GitHub Profile Retrieval | 1. Go to the "GitHub" section. 2. Enter a valid GitHub username (e.g., "huddy2022"). 3. Click the "Search" button. | - Verify that the GitHub user's profile information is displayed. - Confirm that the user's repositories are listed. | Passed |
+| TC 3.2 | GitHub Profile Retrieval with Invalid Username | 1. Go to the "GitHub" section. 2. Enter an invalid GitHub username. 3. Click the "Search" button. | - Ensure that appropriate error messages are displayed for an invalid username. | Passed |
+| TC 4.1 | Responsiveness Testing | 1. Access the website on various devices (desktop, tablet, mobile). 2. Check the layout and functionality. | - Confirm that the website adapts well to different screen sizes. - Verify that all content remains accessible and user-friendly. | Passed |
+| TC 5.1 | Link Testing | 1. Manually click on all internal and external links. | - Ensure that all links lead to the correct destinations. - Confirm that there are no broken links. | Passed |
+
+## Validator Testing
+
+* HTMl - I can confirm no errors were returned when passing through the official w3c validator.
+
+* CSS - I can confirm no errors were returned when passing through the official w3c validator.
+
+* Javascript- I used the JSHint and originally had 11 warnings for my gitHub-information.js but i put a comment /*jshint esversion: 6 */ which passed these warnings. The undefined variables i have tested out on the website and can confirm the github information is being correctly shown. The sendemail.js did not come with any warnings and only advised of three undefined variables, but again i can confirm i have tested the sendemail.js and it correctly sends an email once all the information has been correcly put it and a success alert is shown to the user.
+
+* Accessibility
+    * I confirmed the colours and fonts are easy to read and I tested the colours I have chosen through the web aim contrast checker.
+
+    * I used the lighthouse in dev tools to test my web page on a desktop and mobile devices.
+
+## Bugs
+
+Throughout the project, various bugs and issues were encountered, ranging from HTML and CSS problems to JavaScript errors and responsive design challenges. These issues were systematically addressed and resolved to create a functional and visually appealing website.
+
+* HTML and CSS Issues:
+    * Bug: The HTML structure had a validation error, specifically, a missing <p> element in scope.
+
+    * Solution: Corrected the HTML structure by ensuring proper opening and closing of <p> elements.
+    * Bug: CSS classes and styles were not applied correctly to some elements, causing layout and styling issues.
+
+    * Solution: Carefully reviewed the CSS code and updated class names and styles to match the desired layout and appearance.
+
+* JavaScript Errors:
+    * Bug: Received a JSHint warning about template literals being used without specifying ES6.
+
+    * Solution: Added the comment /*jshint esversion: 6 */ at the beginning of the JavaScript file to indicate ES6 usage.
+    * Bug: JavaScript functions were not working as expected, resulting in incorrect behavior.
+
+    * Solution: Debugged the JavaScript code, identified and fixed logic errors, and ensured proper function execution.
+
+* Responsive Design Problems:
+    * Bug: The website did not render correctly on smaller screens and mobile devices.
+    * Solution: Applied responsive design techniques, including media queries and flexible layouts, to ensure the website is visually appealing and functional across various screen sizes.
+
+## Deployment
+
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+    * In the GitHub repository, navigate to the Settings tab
+    * From the source section drop-down menu, select the Main Branch
+    * Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - 
+
+## Credits
+
+* The icons used were taken from font awesome https://fontawesome.com.
+* The favicon used was taken from https://favicon.io/emoji-favicons/.
+* The resume project from the code institue gave me the foundations to this project.
+* Pexels helped supply the video on the hero section.
+
