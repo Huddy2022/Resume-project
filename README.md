@@ -1,6 +1,6 @@
 # Resume
 
-The Live link can be found here - 
+The Live link can be found here - https://huddy2022.github.io/Resume-project/
 
 The Resume Project represents an innovative facet of my CV, offering professionals an interactive platform to gain deeper insights into my background, skills, and experiences. It provides an intuitive interface divided into sections dedicated to personal information, work history, skills, education, and contact details. This project is a testament to my ability to create user-friendly and effective solutions. While it does not incorporate sign-in or sign-out features, professionals can seamlessly navigate through the sections to explore my qualifications, facilitating a better understanding of my profile and enhancing opportunities for job-related interactions and collaborations.
 
@@ -162,7 +162,7 @@ Throughout the project, various bugs and issues were encountered, ranging from H
     * From the source section drop-down menu, select the Main Branch
     * Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - 
+The live link can be found here - https://huddy2022.github.io/Resume-project/
 
 ## Credits
 
